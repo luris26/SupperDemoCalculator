@@ -13,11 +13,9 @@ namespace SpecFlowCalculator
         }
         public int Subtraction()
         {
-            if (FirstNumber < SecondNumber)
-            {
-                return SecondNumber - FirstNumber;
-            }
+        
             return FirstNumber - SecondNumber;
         }
+
     }
 }

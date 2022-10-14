@@ -18,8 +18,14 @@ Scenario: Add two other numbers
 	When the two numbers are added
 	Then the result should be 110
 
-	Scenario: Subtract a small number from a bigger number
+Scenario: Subtract a small number from a bigger number
 	Given the first number is 100
 	And the second number is 75
 	When the two numbers are subtracted
 	Then the result should be 25
+
+Scenario: Subtract a bigger number from a smaller number
+	Given the first number is 10
+	And the second number is 75
+	When the two numbers are subtracted
+	Then the result should be -65
