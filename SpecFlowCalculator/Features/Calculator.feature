@@ -29,3 +29,9 @@ Scenario: Subtract a bigger number from a smaller number
 	And the second number is 75
 	When the two numbers are subtracted
 	Then the result should be -65
+
+Scenario: Multiply two positive numbers
+	Given the first number is 100
+	And the second number is 75
+	When the two numbers are multiplied
+	Then the result should be 7500

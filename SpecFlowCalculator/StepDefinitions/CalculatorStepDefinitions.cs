@@ -40,6 +40,11 @@ namespace SpecFlowCalculator.Specs.Steps
         {
             _result = _calculator.Subtraction();
         }
+        [When("the two numbers are multiplied")]
+        public void W()
+        {
+            _result = _calculator.Multiplication();
+        }
 
         [Then("the result should be (.*)")]
         public void ThenTheResultShouldBe(int result)
